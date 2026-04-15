@@ -1,0 +1,15 @@
+{
+  "name": "hive-health-monitor",
+  "version": "1.0.0",
+  "description": "Infrastructure health monitoring — uptime, latency, anomaly detection, alerting",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
